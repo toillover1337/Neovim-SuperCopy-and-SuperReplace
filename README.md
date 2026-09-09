@@ -12,7 +12,7 @@ Additionally, this file causes the x nvim bind to send copy results to void, all
 # SuperReplace
 A Neovim config/plugin that creates a new search and replace function. 
 
-This plugin requires two files, the init.lua should be placed in a directory titled "superreplace" which can be put inside the nvim plugins directory. You will also need to add the superreplace.lua file into the nvim plugin directory.
+This plugin requires two files, the init.lua should be placed in a directory titled "superreplace" which can be put inside the nvim lua directory. You will also need to add the superreplace.lua file into the nvim plugin directory.
 
 Use by inputting Super/Alt + / ; this will bring up a search bar allowing you to search for the text you want to replace. You can navigate through this menu as a normal search buffer and see the instances of your prompt in the document.
 
